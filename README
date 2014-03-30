@@ -1,3 +1,29 @@
+Summary
+Jingcheng Xu Yuetong Zhao
+
+I write a script for you to help you visualize my B+ Tree
+Just type in
+./test.sh cachesize keysize valuesize insert_time
+
+To print out the tree.
+I add two sentences in Print and calls the display function.
+This will help you diplay my tree in a normal way.
+
+In our sanitycheck function.
+We implement the following function
+1.Check if the keys are properly sorted.
+2.Check if the keys on the interior are nonexist.
+3.Check if there is missing key in the Leaf Node.
+4.Check if the leaf node key is missing any associated value.
+
+In our Update funcion
+We can update a value according to its key.
+
+Insert is a much more complicated process just look at my code and run the test_me.
+
+Thanks 
+
+
 Welcome to BTree 
 
 (c) 2004 Peter A. Dinda, pdinda@northwestern.edu
